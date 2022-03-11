@@ -1,0 +1,11 @@
+train: C:/Users/karth/Desktop/Retech_labs_assignment/Assignment_Obj/MiniTest/images/train
+val: C:/Users/karth/Desktop/Retech_labs_assignment/Assignment_Obj/MiniTest/images/val
+test: C:/Users/karth/Desktop/Retech_labs_assignment/Assignment_Obj/MiniTest/images/test
+
+#number of classes
+nc: 1
+
+# class names
+
+names: ['product_item']
+

@@ -1,0 +1,10 @@
+Train: 
+python model_main_tf2.py --pipeline_config_path=/mydrive/customTF2/data/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.config --model_dir=/mydrive/customTF2/training --alsologtostderr
+
+Validation:
+
+python model_main_tf2.py --pipeline_config_path=C:\Users\karth\Desktop\Dataset_retech_forTFAPI\data\ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.config --model_dir=C:\Users\karth\Desktop\Dataset_retech_forTFAPI\training --checkpoint_dir=C:\Users\karth\Desktop\Dataset_retech_forTFAPI\training
+
+
+Inference Graph:
+python exporter_main_v2.py --trained_checkpoint_dir=/mydrive/customTF2/training --pipeline_config_path=/content/gdrive/MyDrive/customTF2/data/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.config --output_directory /mydrive/customTF2/data/inference_graph
